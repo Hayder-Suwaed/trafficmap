@@ -1,12 +1,12 @@
 import React, { Component } from "react";
 import styled, { injectGlobal } from "styled-components";
-import Logo from "../TrafficMap-logo.png";
+import Logo from "../TrafficMap-logo .png";
 
-injectGlobal`
+injectGlobal(`
   body {
     background-color: #F1F1F1;
   }
-`;
+`);
 
 const Navbar = styled.div`
   background-color: #ffffff;
